@@ -5,33 +5,54 @@
 }
 
 body {
-  background-color: #ecf0f1;
+  background-color: #ffffff;
 }
+
 .navbar {
-  background-color: #ecf0f1;
-  border-bottom: #333 3px solid;
+  background-color: #ffffff;
+  border-bottom: #777  3px solid;
+}
+
+.navfloat {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
 }
 .jumbotron {
   text-align: center;
   background-color: #ecf0f1;
   margin-top: -27px;
-  border-bottom: #333 3px solid;
+  border-bottom: #777  3px solid;
 
 }
 
-/*.imgsize {
-
-}*/
-
 .carousel {
   margin-top: -30px;
-  border-bottom: #333 3px solid;
+  border-bottom: #777  3px solid;
+  height: 625px;
 }
 
 .carousel-inner > .item > img {
   width: 50%;
-  height: 500px;
+  height: 615px;
 
+}
+
+@media only screen and (max-width: 700px) {
+
+  .carousel {
+    margin-top: -30px;
+    height: 215px;
+  }
+
+  .carousel-inner > .item > img {
+    width: 50%;
+    height: 200px;
+
+  }
 }
 
 .col-md-3 {
@@ -39,13 +60,13 @@ body {
 }
 
 .w3-blue {
-  border-bottom: #333 3px solid;
+  border-bottom: #777  3px solid;
 }
 
 .w3-card-4 {
-  border-top: #333 3px solid;
-  border-right: #333 3px solid;
-  border-left: #333 3px solid;
+  border-top: #777  3px solid;
+  border-right: #777  3px solid;
+  border-left: #777  3px solid;
   margin: 25px 0px 25px 0px;
 }
 
