@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  background-color: #ecf0f1;
+}
+.jumbotron {
+  text-align: center;
+  background-color: #ecf0f1
+}
+
+.imgsize {
+  width: 100%; height: auto;
+}
+
+/*.imgsize {
+  max-height: 400px;
+  max-width: 600px;
+  align-items: center;
+}*/
+
+.cs {
+  max-height: 600px;
+}
